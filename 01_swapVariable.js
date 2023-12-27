@@ -22,8 +22,9 @@ console.log("My Love:",mylove);
  var  isMarried="No";
  console.log("Is Married:",isMarried);
 
- console.log=("first Name:",firstName);
- console.log=("Last Name:",lastName);
+
+  console.log=("First Name:",firstName);
+  console.log=("Last Name:",lastName);11
  console.log=("Age:",age)
  console.log=("Address:",address)
  console.log=("pincode:",pinCode)
