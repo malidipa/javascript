@@ -2,7 +2,7 @@ console.log("===========================Number=============================");
 var pin=411056
 console.log("PIN:",pin);
 console.log("Data Type Is:",typeof pin);
-console.log("-----------------------------------------------");
+console.log("------------------------------------------------");
 var marks=76.7
 console.log("Marks:",marks);
 console.log("Data Type Is:",typeof marks );
