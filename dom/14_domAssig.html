@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercise Time!</title>
+</head>
+<body>
+    <main>
+        <div id="overview">
+            <h1>HTML & JavaScript are crucial technologies</h1>
+            <p>The web would not work without them...</p>
+        </div>
+        <div id="advantages">
+            <ul>
+                <li>Flexible</li>
+                <li>Available</li>
+                <li>Magical</li>
+            </ul>
+        </div>
+    </main>
+    <script>
+      console.log('======= DOM API querySelector() ===========');
+      // Selecting element by tag name or element name
+      const mainHeading = document.querySelector('h1'); 
+      console.log(mainHeading);
+
+       
+        //console.log(' use querySelectorAll()');
+        const secondAdvantage = document.querySelectorAll('li');
+        console.log(secondAdvantage[1].innerHTML);
+    
+
+        //console.log('==================Selecting an element by id==============');
+        const addDiv = document.querySelector('#advantages');
+        console.log(addDiv.innerHTML);
+    </script>
+</body>
+</html>
